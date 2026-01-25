@@ -32,8 +32,8 @@ spark.conf.set(
     "<<Storage_Account_access_key>>"
 )
 
-bronze_path = f"abfss://<<container>>@{storage_account}.dfs.core.windows.net/<<path>>"
-checkpoint_path = f"abfss://<<container>>@{storage_account}.dfs.core.windows.net/<<path>>"
+bronze_path = f"abfss://<<container>>@{storage_account}.dfs.core.windows.net/<<bronze_path>>"
+checkpoint_path = f"abfss://<<container>>@{storage_account}.dfs.core.windows.net/<<checkpoint_path>>"
 
 #Write stream to bronze
 (
