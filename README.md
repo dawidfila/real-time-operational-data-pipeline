@@ -1,4 +1,4 @@
-# Real-Time Operational Intelligence Platform on Azure
+# Real-Time Operational Data Pipeline on Azure
 
 ## Project Overview
 
